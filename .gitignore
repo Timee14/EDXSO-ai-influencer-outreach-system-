@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Data and output
+data/*.csv
+!data/.gitkeep
+outputs/
+*.csv
+
